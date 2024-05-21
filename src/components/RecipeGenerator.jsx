@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Form = () => {
+const RecipeGenerator = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Form = () => {
   )
 }
 
-export default Form
+export default RecipeGenerator

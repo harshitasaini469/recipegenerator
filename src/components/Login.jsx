@@ -1,8 +1,11 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Login = () => {
   return (
-    <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
+    <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12 relative">
+     <Link to='/'><div className='bg-green-700 w-fit rounded-full  px-2 py-1 text-center absolute top-0 mt-3 ml-3'>
+        <p className='text-4xl font-bold text-white'>&#8592;</p>
+      </div></Link> 
   <div class="relative py-3 sm:max-w-xl sm:mx-auto">
     <div
       class="absolute inset-0 bg-gradient-to-r from-green-600 to-green-700 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl">
@@ -37,7 +40,7 @@ const Login = () => {
           <span>Continue with Google</span>
         </button>
       </div>
-<p className='mt-5'>Don't have a account? <a href="" className='text-green-700'>Register</a></p>
+<p className='mt-5'>Don't have a account? <a href="sign-up" className='text-green-700'>Register</a></p>
     </div>
   </div>
 </div>
