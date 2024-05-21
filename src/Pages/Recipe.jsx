@@ -1,18 +1,16 @@
 import React from "react";
+import RecipeGenerator from "../components/RecipeGenerator";
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import About from "../components/About";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const Recipe = () => {
   return (
     <div className="flex flex-col justify-between h-screen">
       <Navbar />
-      <Hero />
-      <About />
+      <RecipeGenerator />
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default Recipe;

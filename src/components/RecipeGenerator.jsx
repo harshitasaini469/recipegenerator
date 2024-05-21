@@ -32,7 +32,7 @@ const RecipeGenerator = () => {
   };
 
   return (
-    <div className="max-w-xl mx-auto p-4 mt-5">
+    <div className="max-w-xl mx-auto p-4 mt-5" id='recipe'>
       <h2 className="text-2xl font-bold mb-4">Recipe Generator</h2>
       <div className="flex items-center mb-4">
         <input
